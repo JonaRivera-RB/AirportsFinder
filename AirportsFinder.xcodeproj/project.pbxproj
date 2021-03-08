@@ -7,20 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13492CC025F6A18300652857 /* +MKMapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13492CBF25F6A18300652857 /* +MKMapViewExtension.swift */; };
+		13C2EC3925F562DB00CB223B /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC3225F562DB00CB223B /* MainPresenter.swift */; };
+		13C2EC3A25F562DB00CB223B /* MainLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC3325F562DB00CB223B /* MainLocalDataManager.swift */; };
+		13C2EC3B25F562DB00CB223B /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC3425F562DB00CB223B /* MainProtocols.swift */; };
+		13C2EC3C25F562DB00CB223B /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC3525F562DB00CB223B /* MainInteractor.swift */; };
+		13C2EC3D25F562DB00CB223B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC3625F562DB00CB223B /* MainView.swift */; };
+		13C2EC3E25F562DB00CB223B /* MainRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC3725F562DB00CB223B /* MainRemoteDataManager.swift */; };
+		13C2EC3F25F562DB00CB223B /* MainWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC3825F562DB00CB223B /* MainWireFrame.swift */; };
+		13C2EC4525F5775200CB223B /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC4225F5775200CB223B /* TabBarRouter.swift */; };
+		13C2EC4625F5775200CB223B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC4325F5775200CB223B /* TabBarController.swift */; };
+		13C2EC4725F5775200CB223B /* TabBarModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC4425F5775200CB223B /* TabBarModuleBuilder.swift */; };
+		13C2EC5325F57A8000CB223B /* MapViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC4C25F57A8000CB223B /* MapViewPresenter.swift */; };
+		13C2EC5425F57A8000CB223B /* MapViewLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC4D25F57A8000CB223B /* MapViewLocalDataManager.swift */; };
+		13C2EC5525F57A8000CB223B /* MapViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC4E25F57A8000CB223B /* MapViewProtocols.swift */; };
+		13C2EC5625F57A8000CB223B /* MapViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC4F25F57A8000CB223B /* MapViewInteractor.swift */; };
+		13C2EC5725F57A8000CB223B /* MapViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC5025F57A8000CB223B /* MapViewView.swift */; };
+		13C2EC5825F57A8000CB223B /* MapViewRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC5125F57A8000CB223B /* MapViewRemoteDataManager.swift */; };
+		13C2EC5925F57A8000CB223B /* MapViewWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC5225F57A8000CB223B /* MapViewWireFrame.swift */; };
+		13C2EC6625F57AA800CB223B /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC5F25F57AA800CB223B /* ListViewPresenter.swift */; };
+		13C2EC6725F57AA800CB223B /* ListViewLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC6025F57AA800CB223B /* ListViewLocalDataManager.swift */; };
+		13C2EC6825F57AA800CB223B /* ListViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC6125F57AA800CB223B /* ListViewProtocols.swift */; };
+		13C2EC6925F57AA800CB223B /* ListViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC6225F57AA800CB223B /* ListViewInteractor.swift */; };
+		13C2EC6A25F57AA800CB223B /* ListViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC6325F57AA800CB223B /* ListViewView.swift */; };
+		13C2EC6B25F57AA800CB223B /* ListViewRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC6425F57AA800CB223B /* ListViewRemoteDataManager.swift */; };
+		13C2EC6C25F57AA800CB223B /* ListViewWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC6525F57AA800CB223B /* ListViewWireFrame.swift */; };
+		13C2EC6F25F57AB600CB223B /* ListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C2EC6E25F57AB600CB223B /* ListView.storyboard */; };
+		13C2EC7625F57AD300CB223B /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C2EC7525F57AD300CB223B /* MapView.storyboard */; };
+		13C2EC8025F5C67400CB223B /* +UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC7F25F5C67400CB223B /* +UIViewExtension.swift */; };
+		13C2EC8425F5C6B700CB223B /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC8325F5C6B700CB223B /* AppConstants.swift */; };
+		13C2EC8825F5C83400CB223B /* +UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC8725F5C83400CB223B /* +UIViewControllerExtension.swift */; };
+		13C2EC8E25F5CBA000CB223B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC8D25F5CBA000CB223B /* API.swift */; };
+		13C2EC9825F5CC6800CB223B /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC9725F5CC6800CB223B /* DataFetcher.swift */; };
+		13C2EC9B25F5CCA400CB223B /* AirportsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC9A25F5CCA400CB223B /* AirportsResponseModel.swift */; };
+		13C2EC9F25F5E78A00CB223B /* UserLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2EC9E25F5E78A00CB223B /* UserLocationModel.swift */; };
 		13E0572825F5605000FC4F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0572725F5605000FC4F33 /* AppDelegate.swift */; };
 		13E0572A25F5605000FC4F33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0572925F5605000FC4F33 /* SceneDelegate.swift */; };
-		13E0572C25F5605000FC4F33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0572B25F5605000FC4F33 /* ViewController.swift */; };
-		13E0572F25F5605000FC4F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E0572D25F5605000FC4F33 /* Main.storyboard */; };
+		13E0572F25F5605000FC4F33 /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E0572D25F5605000FC4F33 /* MainView.storyboard */; };
 		13E0573125F5605200FC4F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E0573025F5605200FC4F33 /* Assets.xcassets */; };
 		13E0573425F5605200FC4F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E0573225F5605200FC4F33 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13492CBF25F6A18300652857 /* +MKMapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+MKMapViewExtension.swift"; sourceTree = "<group>"; };
+		13C2EC3225F562DB00CB223B /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		13C2EC3325F562DB00CB223B /* MainLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLocalDataManager.swift; sourceTree = "<group>"; };
+		13C2EC3425F562DB00CB223B /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		13C2EC3525F562DB00CB223B /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		13C2EC3625F562DB00CB223B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		13C2EC3725F562DB00CB223B /* MainRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRemoteDataManager.swift; sourceTree = "<group>"; };
+		13C2EC3825F562DB00CB223B /* MainWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWireFrame.swift; sourceTree = "<group>"; };
+		13C2EC4225F5775200CB223B /* TabBarRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		13C2EC4325F5775200CB223B /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		13C2EC4425F5775200CB223B /* TabBarModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModuleBuilder.swift; sourceTree = "<group>"; };
+		13C2EC4C25F57A8000CB223B /* MapViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresenter.swift; sourceTree = "<group>"; };
+		13C2EC4D25F57A8000CB223B /* MapViewLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewLocalDataManager.swift; sourceTree = "<group>"; };
+		13C2EC4E25F57A8000CB223B /* MapViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewProtocols.swift; sourceTree = "<group>"; };
+		13C2EC4F25F57A8000CB223B /* MapViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewInteractor.swift; sourceTree = "<group>"; };
+		13C2EC5025F57A8000CB223B /* MapViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewView.swift; sourceTree = "<group>"; };
+		13C2EC5125F57A8000CB223B /* MapViewRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRemoteDataManager.swift; sourceTree = "<group>"; };
+		13C2EC5225F57A8000CB223B /* MapViewWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewWireFrame.swift; sourceTree = "<group>"; };
+		13C2EC5F25F57AA800CB223B /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
+		13C2EC6025F57AA800CB223B /* ListViewLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewLocalDataManager.swift; sourceTree = "<group>"; };
+		13C2EC6125F57AA800CB223B /* ListViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewProtocols.swift; sourceTree = "<group>"; };
+		13C2EC6225F57AA800CB223B /* ListViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewInteractor.swift; sourceTree = "<group>"; };
+		13C2EC6325F57AA800CB223B /* ListViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewView.swift; sourceTree = "<group>"; };
+		13C2EC6425F57AA800CB223B /* ListViewRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewRemoteDataManager.swift; sourceTree = "<group>"; };
+		13C2EC6525F57AA800CB223B /* ListViewWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewWireFrame.swift; sourceTree = "<group>"; };
+		13C2EC6E25F57AB600CB223B /* ListView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListView.storyboard; sourceTree = "<group>"; };
+		13C2EC7525F57AD300CB223B /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		13C2EC7F25F5C67400CB223B /* +UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIViewExtension.swift"; sourceTree = "<group>"; };
+		13C2EC8325F5C6B700CB223B /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		13C2EC8725F5C83400CB223B /* +UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIViewControllerExtension.swift"; sourceTree = "<group>"; };
+		13C2EC8D25F5CBA000CB223B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		13C2EC9725F5CC6800CB223B /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		13C2EC9A25F5CCA400CB223B /* AirportsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsResponseModel.swift; sourceTree = "<group>"; };
+		13C2EC9E25F5E78A00CB223B /* UserLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationModel.swift; sourceTree = "<group>"; };
 		13E0572425F5605000FC4F33 /* AirportsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E0572725F5605000FC4F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13E0572925F5605000FC4F33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13E0572B25F5605000FC4F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13E0572E25F5605000FC4F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E0572E25F5605000FC4F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainView.storyboard; sourceTree = "<group>"; };
 		13E0573025F5605200FC4F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13E0573325F5605200FC4F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13E0573525F5605200FC4F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +103,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C2EC2825F561F100CB223B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC2B25F561FE00CB223B /* ListView */,
+				13C2EC2A25F561FB00CB223B /* MapView */,
+				13C2EC2925F561F700CB223B /* MainView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		13C2EC2925F561F700CB223B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC3625F562DB00CB223B /* MainView.swift */,
+				13C2EC3225F562DB00CB223B /* MainPresenter.swift */,
+				13E0572D25F5605000FC4F33 /* MainView.storyboard */,
+				13C2EC3325F562DB00CB223B /* MainLocalDataManager.swift */,
+				13C2EC3425F562DB00CB223B /* MainProtocols.swift */,
+				13C2EC3525F562DB00CB223B /* MainInteractor.swift */,
+				13C2EC3725F562DB00CB223B /* MainRemoteDataManager.swift */,
+				13C2EC3825F562DB00CB223B /* MainWireFrame.swift */,
+				13C2EC9A25F5CCA400CB223B /* AirportsResponseModel.swift */,
+				13C2EC9E25F5E78A00CB223B /* UserLocationModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		13C2EC2A25F561FB00CB223B /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC5025F57A8000CB223B /* MapViewView.swift */,
+				13C2EC4C25F57A8000CB223B /* MapViewPresenter.swift */,
+				13C2EC7525F57AD300CB223B /* MapView.storyboard */,
+				13C2EC4E25F57A8000CB223B /* MapViewProtocols.swift */,
+				13C2EC4D25F57A8000CB223B /* MapViewLocalDataManager.swift */,
+				13C2EC4F25F57A8000CB223B /* MapViewInteractor.swift */,
+				13C2EC5125F57A8000CB223B /* MapViewRemoteDataManager.swift */,
+				13C2EC5225F57A8000CB223B /* MapViewWireFrame.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		13C2EC2B25F561FE00CB223B /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC6325F57AA800CB223B /* ListViewView.swift */,
+				13C2EC5F25F57AA800CB223B /* ListViewPresenter.swift */,
+				13C2EC6E25F57AB600CB223B /* ListView.storyboard */,
+				13C2EC6125F57AA800CB223B /* ListViewProtocols.swift */,
+				13C2EC6025F57AA800CB223B /* ListViewLocalDataManager.swift */,
+				13C2EC6225F57AA800CB223B /* ListViewInteractor.swift */,
+				13C2EC6425F57AA800CB223B /* ListViewRemoteDataManager.swift */,
+				13C2EC6525F57AA800CB223B /* ListViewWireFrame.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		13C2EC2C25F5620300CB223B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC4325F5775200CB223B /* TabBarController.swift */,
+				13C2EC4425F5775200CB223B /* TabBarModuleBuilder.swift */,
+				13C2EC4225F5775200CB223B /* TabBarRouter.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		13C2EC2D25F5620900CB223B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC8625F5C82900CB223B /* Extensions */,
+				13C2EC8325F5C6B700CB223B /* AppConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		13C2EC7B25F57BCD00CB223B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13E0573025F5605200FC4F33 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13C2EC8625F5C82900CB223B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC7F25F5C67400CB223B /* +UIViewExtension.swift */,
+				13C2EC8725F5C83400CB223B /* +UIViewControllerExtension.swift */,
+				13492CBF25F6A18300652857 /* +MKMapViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		13C2EC8B25F5CB9700CB223B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC8C25F5CB9B00CB223B /* API */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		13C2EC8C25F5CB9B00CB223B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				13C2EC8D25F5CBA000CB223B /* API.swift */,
+				13C2EC9725F5CC6800CB223B /* DataFetcher.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		13E0571B25F5605000FC4F33 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +233,12 @@
 		13E0572625F5605000FC4F33 /* AirportsFinder */ = {
 			isa = PBXGroup;
 			children = (
+				13C2EC8B25F5CB9700CB223B /* Data */,
+				13C2EC7B25F57BCD00CB223B /* Resources */,
+				13C2EC2D25F5620900CB223B /* Utils */,
+				13C2EC2C25F5620300CB223B /* TabBarController */,
+				13C2EC2825F561F100CB223B /* Presentation */,
 				13E0573C25F5610400FC4F33 /* SupportFile */,
-				13E0572B25F5605000FC4F33 /* ViewController.swift */,
-				13E0572D25F5605000FC4F33 /* Main.storyboard */,
-				13E0573025F5605200FC4F33 /* Assets.xcassets */,
 				13E0573225F5605200FC4F33 /* LaunchScreen.storyboard */,
 				13E0573525F5605200FC4F33 /* Info.plist */,
 			);
@@ -133,8 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E0573425F5605200FC4F33 /* LaunchScreen.storyboard in Resources */,
+				13C2EC6F25F57AB600CB223B /* ListView.storyboard in Resources */,
 				13E0573125F5605200FC4F33 /* Assets.xcassets in Resources */,
-				13E0572F25F5605000FC4F33 /* Main.storyboard in Resources */,
+				13C2EC7625F57AD300CB223B /* MapView.storyboard in Resources */,
+				13E0572F25F5605000FC4F33 /* MainView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,21 +326,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E0572C25F5605000FC4F33 /* ViewController.swift in Sources */,
+				13C2EC5325F57A8000CB223B /* MapViewPresenter.swift in Sources */,
+				13C2EC6625F57AA800CB223B /* ListViewPresenter.swift in Sources */,
+				13C2EC5425F57A8000CB223B /* MapViewLocalDataManager.swift in Sources */,
+				13492CC025F6A18300652857 /* +MKMapViewExtension.swift in Sources */,
+				13C2EC4625F5775200CB223B /* TabBarController.swift in Sources */,
+				13C2EC8E25F5CBA000CB223B /* API.swift in Sources */,
+				13C2EC9825F5CC6800CB223B /* DataFetcher.swift in Sources */,
+				13C2EC9F25F5E78A00CB223B /* UserLocationModel.swift in Sources */,
+				13C2EC5725F57A8000CB223B /* MapViewView.swift in Sources */,
+				13C2EC6B25F57AA800CB223B /* ListViewRemoteDataManager.swift in Sources */,
+				13C2EC3925F562DB00CB223B /* MainPresenter.swift in Sources */,
+				13C2EC6725F57AA800CB223B /* ListViewLocalDataManager.swift in Sources */,
+				13C2EC9B25F5CCA400CB223B /* AirportsResponseModel.swift in Sources */,
+				13C2EC5625F57A8000CB223B /* MapViewInteractor.swift in Sources */,
+				13C2EC4725F5775200CB223B /* TabBarModuleBuilder.swift in Sources */,
+				13C2EC3D25F562DB00CB223B /* MainView.swift in Sources */,
+				13C2EC8825F5C83400CB223B /* +UIViewControllerExtension.swift in Sources */,
+				13C2EC8425F5C6B700CB223B /* AppConstants.swift in Sources */,
+				13C2EC6A25F57AA800CB223B /* ListViewView.swift in Sources */,
+				13C2EC3F25F562DB00CB223B /* MainWireFrame.swift in Sources */,
+				13C2EC5525F57A8000CB223B /* MapViewProtocols.swift in Sources */,
+				13C2EC5825F57A8000CB223B /* MapViewRemoteDataManager.swift in Sources */,
+				13C2EC6925F57AA800CB223B /* ListViewInteractor.swift in Sources */,
+				13C2EC6825F57AA800CB223B /* ListViewProtocols.swift in Sources */,
+				13C2EC3B25F562DB00CB223B /* MainProtocols.swift in Sources */,
+				13C2EC5925F57A8000CB223B /* MapViewWireFrame.swift in Sources */,
+				13C2EC3A25F562DB00CB223B /* MainLocalDataManager.swift in Sources */,
+				13C2EC4525F5775200CB223B /* TabBarRouter.swift in Sources */,
 				13E0572825F5605000FC4F33 /* AppDelegate.swift in Sources */,
 				13E0572A25F5605000FC4F33 /* SceneDelegate.swift in Sources */,
+				13C2EC3E25F562DB00CB223B /* MainRemoteDataManager.swift in Sources */,
+				13C2EC3C25F562DB00CB223B /* MainInteractor.swift in Sources */,
+				13C2EC8025F5C67400CB223B /* +UIViewExtension.swift in Sources */,
+				13C2EC6C25F57AA800CB223B /* ListViewWireFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13E0572D25F5605000FC4F33 /* Main.storyboard */ = {
+		13E0572D25F5605000FC4F33 /* MainView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				13E0572E25F5605000FC4F33 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainView.storyboard;
 			sourceTree = "<group>";
 		};
 		13E0573225F5605200FC4F33 /* LaunchScreen.storyboard */ = {

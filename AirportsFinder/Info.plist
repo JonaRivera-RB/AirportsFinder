@@ -34,7 +34,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>MainView</string>
 				</dict>
 			</array>
 		</dict>
@@ -44,7 +44,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>MainView</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -62,5 +62,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>AirportsFinder requiere de tu ubicación para poder brindarte servicio.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>AirportsFinder requiere de tu ubicación para poder brindarte servicio.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>AirportsFinder requiere de tu ubicación para poder brindarte servicio.</string>
+    
 </dict>
 </plist>
