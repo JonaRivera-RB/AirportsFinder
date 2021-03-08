@@ -9,11 +9,10 @@ Simple application to search Airports nerby. The app uses VIPER as architecture.
 
 # How it looks
 
-<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/96399184-5b074580-1193-11eb-80d1-0f61ce99d296.png?raw=true">
-<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/96399187-5d699f80-1193-11eb-9a62-4d67715713ba.png?raw=true">
-<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/96399190-5f336300-1193-11eb-876e-1966134f9847.png?raw=true">
-<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/96399198-65c1da80-1193-11eb-8ce6-d942c12a1115.png?raw=true">
-<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/96399202-678b9e00-1193-11eb-9cdf-53503415af91.png?raw=true">
+<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/110369481-13813900-8010-11eb-9112-6f80ac9a5832.png?raw=true">
+<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/110369539-272c9f80-8010-11eb-820c-bd9087f83c9e.png?raw=true">
+<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/110369611-4297aa80-8010-11eb-8292-4cbe4f77a938.png?raw=true">
+<img width="240" alt="" src="https://user-images.githubusercontent.com/30934641/110369622-46c3c800-8010-11eb-8d69-82448dad1c93.png?raw=true">
 
 
 # Requirements
