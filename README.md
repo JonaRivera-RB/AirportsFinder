@@ -19,6 +19,12 @@ Simple application to search Airports nerby. The app uses VIPER as architecture.
 - iOS 14.0+
 - Xcode 12.2
 
+# NOTA
+  if you are testing in simulator, the location must be enabled
+  
+# TODO
+  add images for the tab bar
+  
 # IOS App
  - [Jonathan Rivera](https://github.com/JonaRivera-RB) | Mobile Developer
 
